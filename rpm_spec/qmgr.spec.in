@@ -14,9 +14,6 @@ Requires:	python%{python3_pkgversion}-qubesadmin >= 4.1.1
 Requires:	python%{python3_pkgversion}-qasync
 Requires:	qubes-desktop-linux-common >= 4.1.2
 Requires:	qubes-artwork
-Requires:	pmount
-Requires:	cryptsetup
-Requires:	wmctrl
 BuildRequires:	python%{python3_pkgversion}-PyQt5-devel
 BuildRequires:	python%{python3_pkgversion}-devel
 %if 0%{?rhel} == 7
@@ -64,7 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 /usr/bin/qubes-qube-manager
 /usr/bin/qubes-log-viewer
 /usr/bin/qubes-template-manager
-/usr/libexec/qubes-manager/mount_for_backup.sh
 /usr/libexec/qubes-manager/qvm_about.sh
 /usr/libexec/qubes-manager/dsa-4371-update
 

@@ -25,9 +25,6 @@ Depends:
   python3-qasync,
   qubes-desktop-linux-common,
   qubes-artwork,
-  pmount,
-  cryptsetup,
-  wmctrl,
   ${python3:Depends},
   ${misc:Depends}
 Conflicts: qubes-core-agent (<< 4.1.9)

@@ -29,7 +29,6 @@ update_ts: res
 
 install:
 	mkdir -p $(DESTDIR)/usr/libexec/qubes-manager/
-	cp qubesmanager/mount_for_backup.sh $(DESTDIR)/usr/libexec/qubes-manager/
 	cp qubesmanager/qvm_about.sh $(DESTDIR)/usr/libexec/qubes-manager/
 	cp qubesmanager/dsa-4371-update $(DESTDIR)/usr/libexec/qubes-manager/
 
